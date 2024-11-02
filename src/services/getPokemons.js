@@ -1,9 +1,9 @@
-import apiPokemon from "../api/apiPokiemons.js";
+import apiPokemon from "../api/apiPokemon.js";
 
 
  const fetchPokemons = async () => {
     const respuesta = await apiPokemon.get('/pokemon');
-    console.log('respuesta', respuesta);
+    
      return respuesta.data;
   
 }   
