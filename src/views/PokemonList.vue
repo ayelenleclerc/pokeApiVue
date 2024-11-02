@@ -11,8 +11,8 @@
 import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import fetchPokemons from '../services/getPokemons.js';
-import PokemonTable from './PokemonTable.vue';
-import PokemonDetailsDialog from './PokemonDetailsDialog.vue';
+import PokemonTable from '../components/tablaComponent.vue';
+import PokemonDetailsDialog from '../components/dialogComponent.vue';
 
 const router = useRouter();
 const pokemons = ref([]);
