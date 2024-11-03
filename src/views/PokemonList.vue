@@ -12,7 +12,7 @@
 import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import fetchPokemons from '../services/getPokemons.js';
-import tablaComponent from '../components/tablaComponent.vue';
+import tablaComponent from '../components/TablaComponent.vue';
 
 const router = useRouter();
 const pokemons = ref([]);

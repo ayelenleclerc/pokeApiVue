@@ -1,7 +1,7 @@
 
 
 describe('Pokemon Test', () => {
-  it('visits the app root url', () => {
+  it('visits the home page and test button', () => {
     cy.visit('/')
     cy.contains('h1', 'Pokemon')
     cy.get('.p-button-label').click()
